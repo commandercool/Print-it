@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:myapp="http://schemas.android.com/apk/res/com.commandercool.alex.print"
+			    android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			>
+  
+<TextView
+	android:text="some text"
+	android:layout_centerHorizontal="true"
+	android:id="@+id/path"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textSize="7pt"
+    />
+
+  
+<RelativeLayout
+	android:layout_alignParentBottom="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<ScrollView
+	android:layout_centerInParent="true"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >    
+<ImageView
+		android:src="@drawable/pdficon" 	
+		android:scaleType="centerInside"
+		android:layout_width="fill_parent"
+		android:paddingTop="15px"
+		android:layout_height="wrap_content"
+		android:id="@+id/preview"/>
+</ScrollView>
+
+<LinearLayout    
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:layout_alignParentBottom="true"> 
+<Button
+	android:id="@+id/print_it"
+	android:layout_width="wrap_content"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/button_print"
+     android:layout_weight="1"
+    />
+<Button
+	android:id="@+id/preferences"
+	android:layout_width="wrap_content"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/button_set"
+   	android:layout_weight="1"
+    />
+<Button
+	android:id="@+id/cancel"
+	android:layout_width="wrap_content"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/button_cancel"
+    android:layout_weight="1"
+    />
+</LinearLayout>
+    
+</RelativeLayout >
+
+<RelativeLayout
+	android:layout_alignParentTop="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+ 
+  <com.admob.android.ads.AdView  
+  android:id="@+id/ads" 
+  android:layout_width="fill_parent"  
+  android:layout_height="wrap_content"  
+  myapp:backgroundColor="#000000"  
+  myapp:primaryTextColor="#FFFFFF"  
+  myapp:secondaryTextColor="#CCCCCC" 
+  />  
+</RelativeLayout>
+
+</RelativeLayout>
+

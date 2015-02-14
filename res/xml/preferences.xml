@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+		xmlns:myapp="http://schemas.android.com/apk/res/com.commandercool.alex.print"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <PreferenceCategory
+        	android:title="@+string/connection_settings">
+        	
+        	<EditTextPreference
+        		android:key="ip_address"
+        		android:title="@+string/ip_address"
+        		android:summary="@+string/set_ip_address">
+        	</EditTextPreference>
+        	
+        	<EditTextPreference
+        		android:key="port"
+        		android:title="@+string/port"
+        		android:summary="@+string/set_port">
+        	</EditTextPreference>
+        	
+        </PreferenceCategory> 
+
+</PreferenceScreen>

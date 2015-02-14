@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Preferences -->
+    <string name="app_name">Print it</string>
+	<string name="connection_settings">Connection settings</string>
+	<string name="ip_address">Ip address</string>
+	<string name="set_ip_address">Set ip address</string>
+	<string name="port">Port</string>
+	<string name="set_port">8080</string>
+	<string name="port_err">Port should be an integer value.</string>
+	
+	<!-- Printer -->
+	<string name="print_it">Print it</string>
+	<string name="settings">Settings</string>
+	<string name="sending_wait">Sending data to server. Please wait...</string>
+	
+	<!-- Printer dialog constants -->
+	<string name="err_connection">No response from server. Would you like to retry?</string>
+	<string name="err_io">Unable to connect server. Would you like to check or change preferences?</string>
+	<string name="err_io_no_connection">No Wi-Fi connection. Would you like to go to Wi-Fi settings?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+</resources>

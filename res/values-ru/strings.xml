@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Preferences -->
+    <string name="app_name">Печать</string>
+	<string name="connection_settings">Настройки соединения</string>
+	<string name="ip_address">Ip адрес</string>
+	<string name="set_ip_address">Установить ip адрес</string>
+	<string name="port">Порт</string>
+	<string name="set_port">8080</string>
+	<string name="port_err">Порт должен быть задан целым значением.</string>
+	
+	<!-- Printer -->
+	<string name="print_it">Напечатать</string>
+	<string name="settings">Настройки</string>
+	<string name="sending_wait">Отправка данных на сервер. Пожалуйста, подождите...</string>
+	
+	<!-- Printer dialog constants -->
+	<string name="err_connection">Сервер не отвечает. Повторить попытку?</string>
+	<string name="err_io">Невозможно подключиться к серверу. Проверить правильность настроек подключения?</string>
+	<string name="err_io_no_connection">Отсутствует Wi-Fi подключение. Перейти в настройки Wi-Fi?</string>
+	<string name="yes">Да</string>
+	<string name="no">Нет</string>
+</resources>
