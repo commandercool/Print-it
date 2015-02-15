@@ -1,2 +1,2 @@
-# Print-it
-Android printing tool
+# Print it!
+**Print it!** is an android client for printing tool. Despite been written a long time ago it still finds it's users. After initial upload to [4pda forums](http://4pda.ru/forum/index.php?showtopic=219468&st=20) it has spread all over the internet and now [could](http://time2android.com/apps-android/other/649-print-it-pod-android-pechat-faylov-formata-pdf-i-jpg.html) [be](http://rutracker.org/forum/viewtopic.php?t=3503155) [downloaded](http://android-castle.ru/programmu/172-print-it.html) from a countless number of sites.
